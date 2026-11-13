@@ -1,4 +1,4 @@
-# kijito-ai
+# Kijito
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,127 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-kijito-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://kijito.ai/
+Kijito provides durable memory and continuity for AI agents, enabling them to retain context across sessions, hand off work to helper agents, and maintain a persistent record of decisions, preferences, and open loops. The platform offers a free tier, integrates with Claude and Codex, and includes features like demos, benchmarks, and comprehensive documentation.
+
+**Areas:** AI · Memory · Agents · Productivity · Platform
+
+## Kijito on APIs.io
+
+Everything profiled for Kijito is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kijito-ai/](https://apis.io/providers/kijito-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Kijito API](https://apis.io/apis/kijito-ai/api/) — API for Kijito memory service
+- [Kijito API](https://apis.io/apis/kijito-ai/kijito-ai-api/) — Kijito API as documented publicly: 42 operations. Contract generated from the documentation by API Evangelist (2026-11-13); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiV1MemoryIdResponse](https://apis.io/schemas/kijito-ai/kijito-ai-get-api-v1-memory-id-response/)
+- [PostApiAuthTokensRequest](https://apis.io/schemas/kijito-ai/kijito-ai-post-api-auth-tokens-request/)
+- [PostApiFeedbackRequest](https://apis.io/schemas/kijito-ai/kijito-ai-post-api-feedback-request/)
+- [PostApiV1GoalsRequest](https://apis.io/schemas/kijito-ai/kijito-ai-post-api-v1-goals-request/)
+- [PostApiV1RecallRequest](https://apis.io/schemas/kijito-ai/kijito-ai-post-api-v1-recall-request/)
+- [PostApiV1RelateRequest](https://apis.io/schemas/kijito-ai/kijito-ai-post-api-v1-relate-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Kijito Ai Context](https://apis.io/jsonld/kijito-ai/kijito-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Kijito API Rules](https://apis.io/rules/kijito-ai/kijito-ai-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Kijito Authentication](https://apis.io/security/kijito-ai/kijito-ai-authentication/)
+- [Kijito Domain Security](https://apis.io/security/kijito-ai/kijito-ai-domain-security/)
+- [Kijito Vulnerability Disclosure](https://apis.io/security/kijito-ai/kijito-ai-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Kijito Plans Pricing](https://apis.io/plans/kijito-ai/kijito-ai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://kijito.ai/)
+- [Documentation](https://kijito.ai/docs/faq)
+- [Getting started](https://kijito.ai/docs/quickstart)
+- [Pricing](https://kijito.ai/pricing)
+- [Changelog](https://kijito.ai/changelog)
+- [Blog](https://kijito.ai/blog)
+- [Security](https://kijito.ai/acceptable-use)
+- [Terms of service](https://kijito.ai/terms)
+- [Privacy policy](https://kijito.ai/privacy)
+- [Status](https://kijito.ai/status)
+
+## API Evangelist rating
+
+**Kin Score 56.1** — strong · rubric 0.27.0 · scored 2026-11-13
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.9 |
+| Contract quality | 53.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 42.1 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 63.7 |
+
+**Agent readiness 38.6** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/kijito-ai/](https://apis.io/providers/kijito-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Kijito: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kijito-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
